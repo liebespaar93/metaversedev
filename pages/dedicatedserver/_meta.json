@@ -1,5 +1,5 @@
 {
   "multiplayermode" : "Multiplayer Mode",
-  "playerconnection" : "Player Connection"
-
+  "playerconnection" : "Player Connection",
+  "clientprediction" : "Client Prediction"
 }

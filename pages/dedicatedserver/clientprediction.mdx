@@ -1,0 +1,27 @@
+---
+title: clientprediction
+description: |-
+    내용입력
+date: 2024-06-08T09:31:30+09:00
+preview: 이미지 주소
+draft: false
+tags:
+    - Metaverse Dev
+categories:
+    - Metaverse
+    - dedicatedserver
+---
+
+Client측에서 예측을 하여 다음 렌더링을 준비하는 방법이다.
+
+이러한 이유는 서버가 데이터 수정과 계산 결과에 대한 모든것을 담당하기 때문에\
+클라이언트의 입장에서는 내가 반응 한것이 서버에 갔다와야 반응을 하기에\
+그러한 부분들을 해소하고자 서버측에 결과를 받지 않은 상태에서 클라이언트가 에측하여\
+렌더링 하는 방법이다.
+
+![clientprediction](./assets/clientprediction.gif)
+
+이러한 방법의 장점은 클라이언트가 즉각 적인 자신의 반응이 반영되는 것을 느낄 수 있으며
+예측이긴 하나 실제 서버에서 결과가 같을 경우 훨신 부드러운 게임 플레이를 느낄 수 있기 때문으다
+
+하지만 클라이언트와 서로 다른 결과일 경우 조금의 혼란을 가지고 올 수 있다.
